@@ -1,0 +1,22 @@
+.fondo {
+    background-image: url(../../assets/img/fondo-rgb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    background-position: center;
+}
+
+.icono {
+    font-size: 38px;
+    margin-right: 8px;
+    color: black;
+}
+
+.espacio {
+    padding-top: 4.2rem;
+}
+
+.color {
+    color:#512E5F;
+}
