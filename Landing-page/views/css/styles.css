@@ -1,4 +1,4 @@
-.fondo {
+.fondo-inicio {
     background-image: url(../../assets/img/fondo-rgb.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -7,33 +7,56 @@
     background-position: center;
 }
 
-.icono {
+.fondo-form {
+    background-image: url(../../assets/img/laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.icono-nav {
     font-size: 38px;
     margin-right: 8px;
     color: black;
 }
 
+.icono-footer {
+    font-size: 50px;
+    margin-right: 10px;
+    color: white;
+}
+
 .espacio {
-    padding-top: 4.2rem;
+    padding-top: 4.4rem;
+}
+
+.espacio-pequeno {
+    padding-top: 1rem;
+}
+
+.espacio-abajo {
+    padding-bottom: 1rem;
 }
 
 .color {
     color:#512E5F;
 }
 
-.linea {
+.sin-subrayado {
+    text-decoration: none;
+}
+
+.linea-negra {
+    margin-left: 5%;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+
+.linea-blanca {
     margin-left: 5%;
     width: 90%;
     height: 2px;
     background-color: white;
-}
-
-.footer-icono {
-    font-size: 50px;
-    margin-right: 10px;
-    color: white;
-}
-
-.sin-linea {
-    text-decoration: none;
 }
